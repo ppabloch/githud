@@ -1,0 +1,171 @@
+ul {
+  list-style: none;
+  font-size: 0;
+  background-color: cornsilk; }
+
+li {
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  font-size: 20px; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+h1 {
+  color: maroon;
+  text-align: center; }
+
+.color4 {
+  color: darkblue;
+  font-family: 'Courier New', Courier, monospace; }
+
+.color2 {
+  color: grey;
+  font-family: 'Courier New', Courier, monospace; }
+
+.color3 {
+  color: blue;
+  font-family: 'Courier New', Courier, monospace; }
+
+.border {
+  border: solid 1px black; }
+
+/*clases deco*/
+.titu {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #16288d; }
+
+ul li a {
+  color: grey; }
+
+.futer {
+  background-color: burlywood;
+  text-align: center;
+  font-size: 20px;
+  height: 5vh; }
+
+.fut {
+  color: white; }
+
+.futt {
+  background-color: wheat;
+  text-align: right; }
+
+.blabla {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: green;
+  text-align: center; }
+
+.comt {
+  text-align: center;
+  color: black;
+  font-size: 20px; }
+
+#centre {
+  text-align: center; }
+
+.allert {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.model {
+  border: double;
+  padding: 20px 20px 20px 20px;
+  color: #09133b; }
+
+img {
+  width: 80%; }
+
+.chichi {
+  width: 50%; }
+
+#row {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap; }
+
+.colum {
+  flex: 25%;
+  padding: 5px; }
+
+.colum img {
+  margin-top: 5px; }
+
+@media (max-width: 600px) {
+  .colum {
+    flex: 100%; } }
+
+@media (max-width: 800px) {
+  .colum {
+    flex: 50%; } }
+
+#grilla {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr; }
+
+.laimg {
+  width: 60%; }
+
+.tiny {
+  height: 400px;
+  width: 400px; }
+
+.tini {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 300px; }
+
+.tinni {
+  height: 400px;
+  width: 500px; }
+
+.movi {
+  transform: translate(400px, 90px); }
+
+.ani {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: crimson;
+  text-align: center;
+  height: 90px;
+  width: 500px;
+  transform: translate(700px);
+  animation-name: anime;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  padding: 20px; }
+
+@keyframes anime {
+  0% {
+    font-size: 20px; }
+  50% {
+    font-size: 25px;
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    pad: 30px; }
+  100% {
+    font: 30px;
+    background-color: #f39f86;
+    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+    padding: 40px; } }
+
+.gradi {
+  background-image: linear-gradient(to top, yellow, pink); }
+
+.grad {
+  background-image: linear-gradient(to left, #0e87d8, #d48888); }
+
+body {
+  background-image: url(../multimedia/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
